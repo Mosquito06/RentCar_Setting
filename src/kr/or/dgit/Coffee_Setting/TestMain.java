@@ -11,8 +11,8 @@ public class TestMain {
 	public static void main(String[] args) {
 		DBCon db = DBCon.getInstance();
 		
-		/*Connection connection = db.getConnection();
-		System.out.println(connection);*/
+		Connection connection = db.getConnection();
+		System.out.println(connection);
 
 		/*DbService service = InitService.getInstance();
 		service.service();
