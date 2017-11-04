@@ -10,9 +10,7 @@ import kr.or.dgit.Coffee_Setting.service.ExportService;
 import kr.or.dgit.Coffee_Setting.service.ImportService;
 import kr.or.dgit.Coffee_Setting.service.InitService;
 
-// µ¿ÀÏ ¹öÆ°¿¡ ´ëÇÑ ÀÌº¥Æ®¸¦ ±¸ÇöÇÏ´Â ¶Ç ´Ù¸¥ ¹æ¹ı
-// actionPerformed¸¸ °¡´ÉÇÔ
-// AbstractActionÀ» »ó¼Ó¹Ş¾Æ ±¸Çö
+@SuppressWarnings("serial")
 public class BtnAction extends AbstractAction {
 
 	public BtnAction(String name) {
@@ -22,20 +20,20 @@ public class BtnAction extends AbstractAction {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		DbService service = null;
-		// ÃÊ±âÈ­, ¹é¾÷, º¹¿ø
+		
 		switch (e.getActionCommand()) {
-		case "ÃÊ±âÈ­":
+		case "ì´ˆê¸°í™”":
 			service = InitService.getInstance();
 			break;
-		case "¹é¾÷":
+		case "ë°±ì›":
 			service = ExportService.getInstance();
 			break;
-		case "º¹¿ø":
+		case "ë³µì›":
 			service = ImportService.getInstance();
 			break;
 		}
 		service.service();
-		JOptionPane.showMessageDialog(null, e.getActionCommand() + "°¡(ÀÌ) ¿Ï·áµÇ¾ú½À´Ï´Ù.");
+		JOptionPane.showMessageDialog(null, e.getActionCommand() + "ê°€(ì´) ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 
 }

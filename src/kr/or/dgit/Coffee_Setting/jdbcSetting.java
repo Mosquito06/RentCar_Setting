@@ -1,18 +1,16 @@
 package kr.or.dgit.Coffee_Setting;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
+import java.awt.GridLayout;
 
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-import java.awt.GridLayout;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.ImageIcon;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
 
+@SuppressWarnings("serial")
 public class jdbcSetting extends JFrame {
 
 	private JPanel contentPane;
@@ -44,15 +42,15 @@ public class jdbcSetting extends JFrame {
 		contentPane.add(panel);
 		panel.setLayout(null);
 		
-		JButton btnInit = new JButton(new BtnAction("√ ±‚»≠"));
+		JButton btnInit = new JButton(new BtnAction("Ï¥àÍ∏∞Ìôî"));
 		btnInit.setBounds(226, 40, 178, 48);
 		panel.add(btnInit);
 		
-		JButton btnExport = new JButton(new BtnAction("πÈæ˜"));
+		JButton btnExport = new JButton(new BtnAction("Î∞±ÏóÖ"));
 		btnExport.setBounds(226, 169, 178, 45);
 		panel.add(btnExport);
 		
-		JButton btnImport = new JButton(new BtnAction("∫πø¯"));
+		JButton btnImport = new JButton(new BtnAction("Î≥µÏõê"));
 		btnImport.setBounds(226, 103, 178, 45);
 		panel.add(btnImport);
 		
