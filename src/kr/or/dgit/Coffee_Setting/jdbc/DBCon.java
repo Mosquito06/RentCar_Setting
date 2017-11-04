@@ -24,9 +24,7 @@ public class DBCon {
 		
 		try {
 			connection = DriverManager.getConnection(properties.getProperty("url"), properties.getProperty("user"), properties.getProperty("pwd"));
-			System.out.println(properties.getProperty("url"));	
-			System.out.println(properties.getProperty("user"));	
-			System.out.println(properties.getProperty("pwd"));	
+				
 		} catch (SQLException e) {
 			System.err.printf("%s - %s%n", e.getErrorCode(), e.getMessage());
 			e.printStackTrace();
