@@ -25,7 +25,7 @@ public class BtnAction extends AbstractAction {
 		case "초기화":
 			service = InitService.getInstance();
 			break;
-		case "백원":
+		case "백업":
 			service = ExportService.getInstance();
 			break;
 		case "복원":
