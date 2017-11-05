@@ -1,11 +1,11 @@
-package kr.or.dgit.Coffee_Setting.dao;
+package kr.or.dgit.RentCar_Setting.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import kr.or.dgit.Coffee_Setting.jdbc.DBCon;
+import kr.or.dgit.RentCar_Setting.jdbc.DBCon;
 
 
 public class DatabaseDao {

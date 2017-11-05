@@ -1,14 +1,14 @@
-package kr.or.dgit.Coffee_Setting;
+package kr.or.dgit.RentCar_Setting;
 
 import java.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
 import javax.swing.JOptionPane;
 
-import kr.or.dgit.Coffee_Setting.service.DbService;
-import kr.or.dgit.Coffee_Setting.service.ExportService;
-import kr.or.dgit.Coffee_Setting.service.ImportService;
-import kr.or.dgit.Coffee_Setting.service.InitService;
+import kr.or.dgit.RentCar_Setting.service.DbService;
+import kr.or.dgit.RentCar_Setting.service.ExportService;
+import kr.or.dgit.RentCar_Setting.service.ImportService;
+import kr.or.dgit.RentCar_Setting.service.InitService;
 
 @SuppressWarnings("serial")
 public class BtnAction extends AbstractAction {

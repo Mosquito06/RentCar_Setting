@@ -1,4 +1,4 @@
-package kr.or.dgit.Coffee_Setting.jdbc;
+package kr.or.dgit.RentCar_Setting.jdbc;
 
 import java.io.IOException;
 import java.io.InputStream;

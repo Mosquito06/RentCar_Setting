@@ -1,9 +1,9 @@
-package kr.or.dgit.Coffee_Setting.service;
+package kr.or.dgit.RentCar_Setting.service;
 
 import java.sql.SQLException;
 
-import kr.or.dgit.Coffee_Setting.Config;
-import kr.or.dgit.Coffee_Setting.dao.DatabaseDao;
+import kr.or.dgit.RentCar_Setting.Config;
+import kr.or.dgit.RentCar_Setting.dao.DatabaseDao;
 
 public class ImportService implements DbService {
 	private static final ImportService instance = new ImportService();

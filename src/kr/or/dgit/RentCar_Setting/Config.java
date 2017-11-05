@@ -1,4 +1,4 @@
-package kr.or.dgit.Coffee_Setting;
+package kr.or.dgit.RentCar_Setting;
 
 public class Config {
 	public static final String DB_NAME = "car_project";

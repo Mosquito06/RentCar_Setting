@@ -1,4 +1,4 @@
-package kr.or.dgit.Coffee_Setting.service;
+package kr.or.dgit.RentCar_Setting.service;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,7 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.sql.SQLException;
 
-import kr.or.dgit.Coffee_Setting.dao.DatabaseDao;
+import kr.or.dgit.RentCar_Setting.dao.DatabaseDao;
 
 public class InitService implements DbService {
 	private static final InitService instance = new InitService();

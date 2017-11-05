@@ -1,4 +1,4 @@
-package kr.or.dgit.Coffee_Setting.service;
+package kr.or.dgit.RentCar_Setting.service;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,9 +9,9 @@ import java.io.UnsupportedEncodingException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import kr.or.dgit.Coffee_Setting.Config;
-import kr.or.dgit.Coffee_Setting.dao.DatabaseDao;
-import kr.or.dgit.Coffee_Setting.jdbc.jdbcUtil;
+import kr.or.dgit.RentCar_Setting.Config;
+import kr.or.dgit.RentCar_Setting.dao.DatabaseDao;
+import kr.or.dgit.RentCar_Setting.jdbc.jdbcUtil;
 
 public class ExportService implements DbService {
 	private static final ExportService instance = new ExportService();
